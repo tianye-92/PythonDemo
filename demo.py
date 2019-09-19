@@ -62,5 +62,16 @@ print('oct_val 的值为：', oct_val)
 oct_val = 0O17
 print('oct_val 的值为：', oct_val)
 
+# 创建列表  列表可变
+a_list = ["1", 1, "abc", -1]
 
+# 创建元组  元组不可变
+a_tuple = ("1", 1, "abc", -1)
 
+print("================================================================================================")
+
+count = 10
+
+while count < 100:
+    print("count:", count)
+    count += 10
